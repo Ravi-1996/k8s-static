@@ -7,7 +7,7 @@ spec:
   selector:
     app: static
   ports:
-    - protocol: Tcp
+    - protocol: TCP
     port: 80
     targetport: 80
   type: LoadBalancer
